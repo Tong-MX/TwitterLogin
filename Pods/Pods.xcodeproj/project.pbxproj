@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		343532669B089EA11540892B63190AB6 /* TwitterKit5 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 077FDA01328822A9B2072E3B48672452 /* Build configuration list for PBXAggregateTarget "TwitterKit5" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B6D906D7659214448273EA2BF21091D0 /* PBXTargetDependency */,
+			);
+			name = TwitterKit5;
+		};
+		D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 088D916CD38469D68EFAF9F15E7D325F /* Build configuration list for PBXAggregateTarget "TwitterCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TwitterCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9AEEBA3DE7C7805948285A59B9CA6788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B97E04A8598F4A94F5371BF2A409F583 /* Pods-TwitterLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5518D59B85D7C3B8F8FA88216A8E34F /* Pods-TwitterLogin-dummy.m */; };
+		D7CE650F55BC99099C7A894500529BE0 /* Pods-TwitterLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA03B57A86475BFB0661308BEA7A00C /* Pods-TwitterLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEFE442D3ADA53C5B1087ED21FA939C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		1522936E78420B8FA4DC0D5ECE1B57E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		497DD0F533767351970FB5277F64F74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343532669B089EA11540892B63190AB6;
+			remoteInfo = TwitterKit5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A79A889827B45F413ADBF9F3BF0975B /* Pods-TwitterLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterLogin-frameworks.sh"; sourceTree = "<group>"; };
+		22880BC473BDE15B77F6E750360E5AEB /* Pods-TwitterLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CB64AD05659A43EA7A550181B225A6B /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		2EA03B57A86475BFB0661308BEA7A00C /* Pods-TwitterLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterLogin-umbrella.h"; sourceTree = "<group>"; };
+		33E27893AE33E67D58E3AE6A07A8EABE /* Pods-TwitterLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLogin.release.xcconfig"; sourceTree = "<group>"; };
+		43188056A9460961CAD89D34BDC842CC /* Pods-TwitterLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TwitterLogin"; path = Pods_TwitterLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E8C5F503D697A81ACEEC4A8FF9392E /* Pods-TwitterLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLogin-Info.plist"; sourceTree = "<group>"; };
+		53E22C470EC4AE36899E7AB94DBE2C6E /* TwitterKit5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit5.release.xcconfig; sourceTree = "<group>"; };
+		5F82964B875CA099CBF6C1E92EFFC13D /* TwitterCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.debug.xcconfig; sourceTree = "<group>"; };
+		6324757D5F01AA8DFB65375ED5B173CE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		6FF615BBD4BD781C968D0858812E0966 /* TwitterCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8521760A87A0750F61CA708288A95CFF /* Pods-TwitterLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8632F207024ED91640197E1F680EA412 /* TwitterKit5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit5.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5518D59B85D7C3B8F8FA88216A8E34F /* Pods-TwitterLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterLogin-dummy.m"; sourceTree = "<group>"; };
+		ABABA1E665D9CA011D701335E9F8C715 /* Pods-TwitterLogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterLogin-resources.sh"; sourceTree = "<group>"; };
+		B7081D547CCC27436425A4FEBAE3F831 /* Pods-TwitterLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFB10E657789C43CDDA8989C75B96C1 /* Pods-TwitterLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterLogin.modulemap"; sourceTree = "<group>"; };
+		EE775363A9B2067584563E28A736BC34 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BB1D9C888CD4F65534CF99128732BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEEBA3DE7C7805948285A59B9CA6788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F664254ED01CBE4A420D65EE64BBAA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B04C5B001DBD38FB74A096ECE7236BE /* Pods-TwitterLogin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E8AC03D0D0E4777E176BB52C2EF287B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43188056A9460961CAD89D34BDC842CC /* Pods-TwitterLogin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6369C15D1431344355E2E9154B4F992E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6324757D5F01AA8DFB65375ED5B173CE /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67C8A4EE284AD88A5B38ADF37A4CBC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A75F91311770A14258C61443ED3CBC /* TwitterCore */,
+				6FF1F76CC480B4901D1B92FDDA1AC403 /* TwitterKit5 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FF1F76CC480B4901D1B92FDDA1AC403 /* TwitterKit5 */ = {
+			isa = PBXGroup;
+			children = (
+				AC62C3DA545D4822DEFBF02C436B79C1 /* Frameworks */,
+				6369C15D1431344355E2E9154B4F992E /* Resources */,
+				7E79980FBA6999D2408FB117F2A22A9C /* Support Files */,
+			);
+			name = TwitterKit5;
+			path = TwitterKit5;
+			sourceTree = "<group>";
+		};
+		7D81187874E4B5E795700C10D6D31605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE775363A9B2067584563E28A736BC34 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E79980FBA6999D2408FB117F2A22A9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8632F207024ED91640197E1F680EA412 /* TwitterKit5.debug.xcconfig */,
+				53E22C470EC4AE36899E7AB94DBE2C6E /* TwitterKit5.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwitterKit5";
+			sourceTree = "<group>";
+		};
+		8B04C5B001DBD38FB74A096ECE7236BE /* Pods-TwitterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BEFB10E657789C43CDDA8989C75B96C1 /* Pods-TwitterLogin.modulemap */,
+				8521760A87A0750F61CA708288A95CFF /* Pods-TwitterLogin-acknowledgements.markdown */,
+				22880BC473BDE15B77F6E750360E5AEB /* Pods-TwitterLogin-acknowledgements.plist */,
+				A5518D59B85D7C3B8F8FA88216A8E34F /* Pods-TwitterLogin-dummy.m */,
+				0A79A889827B45F413ADBF9F3BF0975B /* Pods-TwitterLogin-frameworks.sh */,
+				49E8C5F503D697A81ACEEC4A8FF9392E /* Pods-TwitterLogin-Info.plist */,
+				ABABA1E665D9CA011D701335E9F8C715 /* Pods-TwitterLogin-resources.sh */,
+				2EA03B57A86475BFB0661308BEA7A00C /* Pods-TwitterLogin-umbrella.h */,
+				B7081D547CCC27436425A4FEBAE3F831 /* Pods-TwitterLogin.debug.xcconfig */,
+				33E27893AE33E67D58E3AE6A07A8EABE /* Pods-TwitterLogin.release.xcconfig */,
+			);
+			name = "Pods-TwitterLogin";
+			path = "Target Support Files/Pods-TwitterLogin";
+			sourceTree = "<group>";
+		};
+		AC62C3DA545D4822DEFBF02C436B79C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB64AD05659A43EA7A550181B225A6B /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				67C8A4EE284AD88A5B38ADF37A4CBC0C /* Pods */,
+				4E8AC03D0D0E4777E176BB52C2EF287B /* Products */,
+				3F664254ED01CBE4A420D65EE64BBAA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3EEB85734719555AFF391AAF810C440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F82964B875CA099CBF6C1E92EFFC13D /* TwitterCore.debug.xcconfig */,
+				6FF615BBD4BD781C968D0858812E0966 /* TwitterCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwitterCore";
+			sourceTree = "<group>";
+		};
+		F6A75F91311770A14258C61443ED3CBC /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				7D81187874E4B5E795700C10D6D31605 /* Frameworks */,
+				F3EEB85734719555AFF391AAF810C440 /* Support Files */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D1F33563B6F12F4357D15653896D698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE650F55BC99099C7A894500529BE0 /* Pods-TwitterLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF3BCCBAC0445337F546AA0786A25063 /* Pods-TwitterLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6F234F06ED9974BDD9C9023D7F7557 /* Build configuration list for PBXNativeTarget "Pods-TwitterLogin" */;
+			buildPhases = (
+				9D1F33563B6F12F4357D15653896D698 /* Headers */,
+				533E9EF74C400D92B114D3B42C76B44F /* Sources */,
+				71BB1D9C888CD4F65534CF99128732BC /* Frameworks */,
+				22F4FF4BE69217C119E05FF9ED920F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA417475C5E5342941E75C4388215D4 /* PBXTargetDependency */,
+				78361915A344AAE969F337DB87B3B678 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterLogin";
+			productName = Pods_TwitterLogin;
+			productReference = 43188056A9460961CAD89D34BDC842CC /* Pods-TwitterLogin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E8AC03D0D0E4777E176BB52C2EF287B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3BCCBAC0445337F546AA0786A25063 /* Pods-TwitterLogin */,
+				D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */,
+				343532669B089EA11540892B63190AB6 /* TwitterKit5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F4FF4BE69217C119E05FF9ED920F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533E9EF74C400D92B114D3B42C76B44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97E04A8598F4A94F5371BF2A409F583 /* Pods-TwitterLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78361915A344AAE969F337DB87B3B678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterKit5;
+			target = 343532669B089EA11540892B63190AB6 /* TwitterKit5 */;
+			targetProxy = 497DD0F533767351970FB5277F64F74E /* PBXContainerItemProxy */;
+		};
+		B6D906D7659214448273EA2BF21091D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 0BEFE442D3ADA53C5B1087ED21FA939C /* PBXContainerItemProxy */;
+		};
+		BAA417475C5E5342941E75C4388215D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 1522936E78420B8FA4DC0D5ECE1B57E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FF1057EDAF88DB2C3269A99520EA49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7081D547CCC27436425A4FEBAE3F831 /* Pods-TwitterLogin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterLogin/Pods-TwitterLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterLogin/Pods-TwitterLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27CD27654E1C4FE07183AE1BCF55A885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F82964B875CA099CBF6C1E92EFFC13D /* TwitterCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE18398A527091F537EA799D8503D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF615BBD4BD781C968D0858812E0966 /* TwitterCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A37C5E5CC30680C9925EA61E72DACE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E22C470EC4AE36899E7AB94DBE2C6E /* TwitterKit5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACB508470A6F0E0E522ED710DB9C05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8632F207024ED91640197E1F680EA412 /* TwitterKit5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E01D92D0CA4D020B9B7D204A33642E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E27893AE33E67D58E3AE6A07A8EABE /* Pods-TwitterLogin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterLogin/Pods-TwitterLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterLogin/Pods-TwitterLogin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077FDA01328822A9B2072E3B48672452 /* Build configuration list for PBXAggregateTarget "TwitterKit5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACB508470A6F0E0E522ED710DB9C05D /* Debug */,
+				A37C5E5CC30680C9925EA61E72DACE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088D916CD38469D68EFAF9F15E7D325F /* Build configuration list for PBXAggregateTarget "TwitterCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CD27654E1C4FE07183AE1BCF55A885 /* Debug */,
+				4DE18398A527091F537EA799D8503D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6F234F06ED9974BDD9C9023D7F7557 /* Build configuration list for PBXNativeTarget "Pods-TwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF1057EDAF88DB2C3269A99520EA49D /* Debug */,
+				E01D92D0CA4D020B9B7D204A33642E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - TwitterCore (3.2.0)
+  - TwitterKit5 (5.2.0):
+    - TwitterCore (>= 3.1.0)
+
+DEPENDENCIES:
+  - TwitterKit5
+
+SPEC REPOS:
+  trunk:
+    - TwitterCore
+    - TwitterKit5
+
+SPEC CHECKSUMS:
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit5: 64095dfefcf39be2355711ef27112d55e340d90e
+
+PODFILE CHECKSUM: 4ab60a8203a3cd7a57536806662e591f83a9c318
+
+COCOAPODS: 1.11.0
